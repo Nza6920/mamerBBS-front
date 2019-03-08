@@ -1,0 +1,120 @@
+*{
+  padding:0px;
+  margin: 0px;
+}
+body{
+  background-color:#F5F8FA;
+  margin-top: 100px;
+  padding: 0px;
+  text-align:center;
+}
+.container{
+  background-color: #FFF;
+  text-align: left;
+}
+.fa-times {
+  font-size: 15px;
+}
+.panel {
+  height: 210px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.panel-heading {
+  text-align: right;
+}
+/*加号*/
+.icon-add-50 {
+  position: relative;
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  border: 2px dashed #9a9ba3;
+  border-radius: 50%;
+}
+.icon-add-50:before {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  left: 50%;
+  top: 50%;
+  margin-left: -15px;
+  margin-top: -1px;
+  background-color: #aaabb2;
+}
+.icon-add-50:after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 30px;
+  left: 50%;
+  top: 50%;
+  margin-left: -1px;
+  margin-top: -15px;
+  background-color: #aaabb2;
+}
+
+.updatepanel {
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.updatepanel .addbox {
+  vertical-align: middle;
+  height: 285px;
+  line-height: 285px;
+}
+
+#image {
+  overflow: hidden;
+}
+.panel-body {
+  /*padding-top: 0px;
+  padding-bottom: 0px;*/
+}
+label {
+  width: 100%;
+}
+
+.file {
+  position: relative;
+  display: inline-block;
+  background: #D0EEFF;
+  border: 1px solid #99D3F5;
+  border-radius: 4px;
+  padding: 4px 12px;
+  overflow: hidden;
+  color: #1E88C7;
+  text-decoration: none;
+  text-indent: 0;
+  line-height: 20px;
+}
+.file input {
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+}
+.file:hover {
+  background: #AADFFD;
+  border-color: #78C3F3;
+  color: #004974;
+  text-decoration: none;
+}
+#submitInput {
+  width: 100%;
+  height: 37px;
+  border-radius: 5px;
+  border: none;
+  background-color: #409EFF;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+#submitInput:hover {
+  border-color: #409EFF;
+  background-color: #66b1ff;
+  color: #fff;
+}
