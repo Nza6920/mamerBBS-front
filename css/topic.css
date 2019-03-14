@@ -1,0 +1,48 @@
+*{
+  padding:0px;
+  margin: 0px;
+}
+body{
+  background-color:#F5F8FA;
+  margin-top: 100px;
+  padding: 0px;
+}
+.container{
+  background-color: #F5F8FA;
+  border-radius: 6px;
+}
+.btn1{
+  margin:15px 15px;
+}
+.badge{
+  float: right;
+}
+.cRight{
+  padding:0 39px;
+}
+.newPost{
+  background-color:#FFFFFF;
+  margin-bottom:18px;
+}
+.activeUsers{
+  background-color:#FFFFFF;
+  margin:18px 0px;
+}
+.activeUsers h4{
+  text-align:center;
+  margin-top:21px;
+  margin-bottom: 17px;
+}
+.resourceAdministration{
+  background-color:#FFFFFF;
+  margin:18px 0px;
+}
+.resourceAdministration h4{
+  text-align: center;
+  margin-top:21px;
+  margin-bottom: 17px;
+}
+.media hr{
+  margin-top:6px;
+  margin-bottom:15px;
+}
